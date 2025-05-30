@@ -53,11 +53,27 @@ Each model was trained to predict the next closing price based on the past 60 ti
 
 ## 📉 Visualization
 
-![Prediction vs Actual](images/predicted_vs_actual.png)
+### Actual vs Predicted
 
-- Line plot showing actual vs predicted closing prices
+![Prediction vs Actual](images/predicted_vs_actual_RNN.png)
+![Prediction vs Actual](images/predicted_vs_actual_LSTM.png)
+
+### Training Loss
+
+![Training Loss](images/loss_curve.png)
+
+### Stock Price History
+
+![Stock Price History](images/stock_price_history.png)
+
+### 4. Model Comparison (RMSE)
+
+![Model Comparison](images/compare_results.png)
+
+- Line plot showing actual vs predicted closing prices for RNN and LSTM.
 - Loss vs Epochs graphs for model training
-
+- This plot shows the historical closing prices of Apple Inc. (AAPL) used for training and testing the models.
+- Bar chart comparing RMSE values for RNN and LSTM models.
 ---
 
 
