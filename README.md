@@ -55,20 +55,20 @@ Each model was trained to predict the next closing price based on the past 60 ti
 
 ### Actual vs Predicted
 
-![Prediction vs Actual](images/predicted_vs_actual_RNN.png)
-![Prediction vs Actual](images/predicted_vs_actual_LSTM.png)
+![Prediction vs Actual](images1/predicted_vs_actual_RNN.png)
+![Prediction vs Actual](images1/predicted_vs_actual_LSTM.png)
 
 ### Training Loss
 
-![Training Loss](images/loss_curve.png)
+![Training Loss](images1/loss_curve.png)
 
 ### Stock Price History
 
-![Stock Price History](images/stock_price_history.png)
+![Stock Price History](images1/stock_price_history.png)
 
 ### 4. Model Comparison (RMSE)
 
-![Model Comparison](images/compare_results.png)
+![Model Comparison](images1/compare_results.png)
 
 - Line plot showing actual vs predicted closing prices for RNN and LSTM.
 - Loss vs Epochs graphs for model training
